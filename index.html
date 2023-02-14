@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img class="logo" src="images/logo-bonus.svg" alt="" />
+        <div class="score">
+          <span class="score-title">score</span>
+          <span id="score" class="score-num">0</span>
+        </div>
+      </header>
+      <div id="step-one" class="game">
+        <button id="scissors" class="btn scissors" data-shape="scissors">
+          <div class="img"><img src="images/icon-scissors.svg" alt="" /></div>
+        </button>
+        <button id="spock" class="btn spock" data-shape="spock">
+          <div class="img"><img src="images/icon-spock.svg" alt="" /></div>
+        </button>
+        <button id="paper" class="btn paper" data-shape="paper">
+          <div class="img"><img src="images/icon-paper.svg" alt="" /></div>
+        </button>
+        <button id="rock" class="btn rock" data-shape="rock">
+          <div class="img"><img src="images/icon-rock.svg" alt="" /></div>
+        </button>
+        <button id="lizard" class="btn lizard" data-shape="lizard">
+          <div class="img"><img src="images/icon-lizard.svg" alt="" /></div>
+        </button>
+      </div>
+      <button class="rules">rules</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
